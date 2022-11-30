@@ -43,6 +43,9 @@ func search(arr *[5]string) {
 	var name = "肖战"
 	fmt.Println("请输入查找的人名")
 	//fmt.Scanln(&name)
+	for k, i := range arr {
+
+	}
 	for i := 0; i < len(arr); i++ {
 		if arr[i] == name {
 			fmt.Printf("找到%v,下标%v \n", name, i)
